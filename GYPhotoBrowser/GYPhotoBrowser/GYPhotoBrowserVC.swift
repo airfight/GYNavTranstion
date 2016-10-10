@@ -10,26 +10,63 @@ import UIKit
 
 class GYPhotoBrowserVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    var currentIndex: Int?
+    var pictureURLs: [NSURL]?
+    
+    
+    
+    init(index: Int,urls: [NSURL])
+    {
+        //swift语法规定，必须先初始化本类属性，在初始化父类
+        currentIndex = index
+        pictureURLs = urls
+        
+        super.init(nibName: nil, bundle: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = UIColor.white
+        //setupUI()
     }
-    */
+    
+    private func setupUI() {
+        
+        //1.添加子控件
+        view.addSubview(closeBtn)
+        view.addSubview(saveBtn)
+        
+        //2.布局子控件
+        
+        closeBtn.frame = CGRect(x: 20, y: 500, width: 40, height: 20)
+        saveBtn.frame = CGRect(x: 200, y: 500, width: 40, height: 20)
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    
+    // MARK: - 懒加载
+    private lazy var closeBtn: UIButton = {
+        let btn = UIButton()
+        
+        btn.setTitle("关闭", for: UIControlState.normal)
+        btn.setTitleColor(UIColor.white, for: UIControlState.normal)
+        btn.backgroundColor = UIColor.darkGray
+        return btn
+    }()
+    
+    private lazy var saveBtn: UIButton = {
+        let btn = UIButton()
+        
+        btn.setTitle("保存", for: UIControlState.normal)
+        btn.setTitleColor(UIColor.white, for: UIControlState.normal)
+        btn.backgroundColor = UIColor.darkGray
+        return btn
+    }()
 
 }
