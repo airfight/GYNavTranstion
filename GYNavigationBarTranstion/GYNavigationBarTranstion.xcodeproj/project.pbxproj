@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71BB8AA1E13521200301BCD /* DispatchQueue+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BB8A91E13521200301BCD /* DispatchQueue+GYExtension.swift */; };
+		B79CCA2E1E12040400305D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA2D1E12040400305D51 /* AppDelegate.swift */; };
+		B79CCA301E12040400305D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA2F1E12040400305D51 /* ViewController.swift */; };
+		B79CCA351E12040400305D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79CCA341E12040400305D51 /* Assets.xcassets */; };
+		B79CCA381E12040400305D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79CCA361E12040400305D51 /* LaunchScreen.storyboard */; };
+		B79CCA431E12040400305D51 /* GYNavigationBarTranstionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA421E12040400305D51 /* GYNavigationBarTranstionTests.swift */; };
+		B79CCA4E1E12040400305D51 /* GYNavigationBarTranstionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA4D1E12040400305D51 /* GYNavigationBarTranstionUITests.swift */; };
+		B79CCA5D1E12045100305D51 /* GYSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA5C1E12045100305D51 /* GYSwizzle.swift */; };
+		B79CCA5F1E1209A900305D51 /* GYWeakObjectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA5E1E1209A900305D51 /* GYWeakObjectContainer.swift */; };
+		B7CA4D351E1232E200AC3262 /* GYNavigatiionBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D341E1232E200AC3262 /* GYNavigatiionBarTransition.swift */; };
+		B7CA4D371E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D361E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift */; };
+		B7CA4D391E12600B00AC3262 /* backBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B7CA4D381E12600B00AC3262 /* backBg.png */; };
+		B7CA4D3B1E1262EE00AC3262 /* GYVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D3A1E1262EE00AC3262 /* GYVcViewController.swift */; };
+		B7CA4D3D1E1266B800AC3262 /* GYNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D3C1E1266B800AC3262 /* GYNavViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79CCA3F1E12040400305D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79CCA221E12040400305D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79CCA291E12040400305D51;
+			remoteInfo = GYNavigationBarTranstion;
+		};
+		B79CCA4A1E12040400305D51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B79CCA221E12040400305D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79CCA291E12040400305D51;
+			remoteInfo = GYNavigationBarTranstion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B71BB8A91E13521200301BCD /* DispatchQueue+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+GYExtension.swift"; sourceTree = "<group>"; };
+		B79CCA2A1E12040400305D51 /* GYNavigationBarTranstion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYNavigationBarTranstion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79CCA2D1E12040400305D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B79CCA2F1E12040400305D51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79CCA341E12040400305D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B79CCA371E12040400305D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B79CCA391E12040400305D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79CCA3E1E12040400305D51 /* GYNavigationBarTranstionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYNavigationBarTranstionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79CCA421E12040400305D51 /* GYNavigationBarTranstionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYNavigationBarTranstionTests.swift; sourceTree = "<group>"; };
+		B79CCA441E12040400305D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79CCA491E12040400305D51 /* GYNavigationBarTranstionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYNavigationBarTranstionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79CCA4D1E12040400305D51 /* GYNavigationBarTranstionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GYNavigationBarTranstionUITests.swift; sourceTree = "<group>"; };
+		B79CCA4F1E12040500305D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79CCA5C1E12045100305D51 /* GYSwizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSwizzle.swift; sourceTree = "<group>"; };
+		B79CCA5E1E1209A900305D51 /* GYWeakObjectContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYWeakObjectContainer.swift; sourceTree = "<group>"; };
+		B7CA4D341E1232E200AC3262 /* GYNavigatiionBarTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavigatiionBarTransition.swift; sourceTree = "<group>"; };
+		B7CA4D361E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+GYNavigationBarTransition.swift"; sourceTree = "<group>"; };
+		B7CA4D381E12600B00AC3262 /* backBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBg.png; sourceTree = "<group>"; };
+		B7CA4D3A1E1262EE00AC3262 /* GYVcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYVcViewController.swift; sourceTree = "<group>"; };
+		B7CA4D3C1E1266B800AC3262 /* GYNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B79CCA271E12040400305D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CCA3B1E12040400305D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CCA461E12040400305D51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B79CCA211E12040400305D51 = {
+			isa = PBXGroup;
+			children = (
+				B79CCA2C1E12040400305D51 /* GYNavigationBarTranstion */,
+				B79CCA411E12040400305D51 /* GYNavigationBarTranstionTests */,
+				B79CCA4C1E12040400305D51 /* GYNavigationBarTranstionUITests */,
+				B79CCA2B1E12040400305D51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B79CCA2B1E12040400305D51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79CCA2A1E12040400305D51 /* GYNavigationBarTranstion.app */,
+				B79CCA3E1E12040400305D51 /* GYNavigationBarTranstionTests.xctest */,
+				B79CCA491E12040400305D51 /* GYNavigationBarTranstionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79CCA2C1E12040400305D51 /* GYNavigationBarTranstion */ = {
+			isa = PBXGroup;
+			children = (
+				B79CCA5B1E12042A00305D51 /* GYNavBar */,
+				B79CCA2D1E12040400305D51 /* AppDelegate.swift */,
+				B79CCA2F1E12040400305D51 /* ViewController.swift */,
+				B7CA4D3A1E1262EE00AC3262 /* GYVcViewController.swift */,
+				B7CA4D3C1E1266B800AC3262 /* GYNavViewController.swift */,
+				B79CCA341E12040400305D51 /* Assets.xcassets */,
+				B79CCA361E12040400305D51 /* LaunchScreen.storyboard */,
+				B79CCA391E12040400305D51 /* Info.plist */,
+			);
+			path = GYNavigationBarTranstion;
+			sourceTree = "<group>";
+		};
+		B79CCA411E12040400305D51 /* GYNavigationBarTranstionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B79CCA421E12040400305D51 /* GYNavigationBarTranstionTests.swift */,
+				B79CCA441E12040400305D51 /* Info.plist */,
+			);
+			path = GYNavigationBarTranstionTests;
+			sourceTree = "<group>";
+		};
+		B79CCA4C1E12040400305D51 /* GYNavigationBarTranstionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B79CCA4D1E12040400305D51 /* GYNavigationBarTranstionUITests.swift */,
+				B79CCA4F1E12040500305D51 /* Info.plist */,
+			);
+			path = GYNavigationBarTranstionUITests;
+			sourceTree = "<group>";
+		};
+		B79CCA5B1E12042A00305D51 /* GYNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				B7CA4D381E12600B00AC3262 /* backBg.png */,
+				B79CCA5C1E12045100305D51 /* GYSwizzle.swift */,
+				B79CCA5E1E1209A900305D51 /* GYWeakObjectContainer.swift */,
+				B7CA4D341E1232E200AC3262 /* GYNavigatiionBarTransition.swift */,
+				B7CA4D361E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift */,
+				B71BB8A91E13521200301BCD /* DispatchQueue+GYExtension.swift */,
+			);
+			path = GYNavBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B79CCA291E12040400305D51 /* GYNavigationBarTranstion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79CCA521E12040500305D51 /* Build configuration list for PBXNativeTarget "GYNavigationBarTranstion" */;
+			buildPhases = (
+				B79CCA261E12040400305D51 /* Sources */,
+				B79CCA271E12040400305D51 /* Frameworks */,
+				B79CCA281E12040400305D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYNavigationBarTranstion;
+			productName = GYNavigationBarTranstion;
+			productReference = B79CCA2A1E12040400305D51 /* GYNavigationBarTranstion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B79CCA3D1E12040400305D51 /* GYNavigationBarTranstionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79CCA551E12040500305D51 /* Build configuration list for PBXNativeTarget "GYNavigationBarTranstionTests" */;
+			buildPhases = (
+				B79CCA3A1E12040400305D51 /* Sources */,
+				B79CCA3B1E12040400305D51 /* Frameworks */,
+				B79CCA3C1E12040400305D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79CCA401E12040400305D51 /* PBXTargetDependency */,
+			);
+			name = GYNavigationBarTranstionTests;
+			productName = GYNavigationBarTranstionTests;
+			productReference = B79CCA3E1E12040400305D51 /* GYNavigationBarTranstionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B79CCA481E12040400305D51 /* GYNavigationBarTranstionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79CCA581E12040500305D51 /* Build configuration list for PBXNativeTarget "GYNavigationBarTranstionUITests" */;
+			buildPhases = (
+				B79CCA451E12040400305D51 /* Sources */,
+				B79CCA461E12040400305D51 /* Frameworks */,
+				B79CCA471E12040400305D51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79CCA4B1E12040400305D51 /* PBXTargetDependency */,
+			);
+			name = GYNavigationBarTranstionUITests;
+			productName = GYNavigationBarTranstionUITests;
+			productReference = B79CCA491E12040400305D51 /* GYNavigationBarTranstionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B79CCA221E12040400305D51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GYJade;
+				TargetAttributes = {
+					B79CCA291E12040400305D51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+					};
+					B79CCA3D1E12040400305D51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NFC68K2BKB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B79CCA291E12040400305D51;
+					};
+					B79CCA481E12040400305D51 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NFC68K2BKB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B79CCA291E12040400305D51;
+					};
+				};
+			};
+			buildConfigurationList = B79CCA251E12040400305D51 /* Build configuration list for PBXProject "GYNavigationBarTranstion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B79CCA211E12040400305D51;
+			productRefGroup = B79CCA2B1E12040400305D51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B79CCA291E12040400305D51 /* GYNavigationBarTranstion */,
+				B79CCA3D1E12040400305D51 /* GYNavigationBarTranstionTests */,
+				B79CCA481E12040400305D51 /* GYNavigationBarTranstionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B79CCA281E12040400305D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79CCA381E12040400305D51 /* LaunchScreen.storyboard in Resources */,
+				B79CCA351E12040400305D51 /* Assets.xcassets in Resources */,
+				B7CA4D391E12600B00AC3262 /* backBg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CCA3C1E12040400305D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CCA471E12040400305D51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B79CCA261E12040400305D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CA4D3D1E1266B800AC3262 /* GYNavViewController.swift in Sources */,
+				B71BB8AA1E13521200301BCD /* DispatchQueue+GYExtension.swift in Sources */,
+				B7CA4D3B1E1262EE00AC3262 /* GYVcViewController.swift in Sources */,
+				B79CCA5F1E1209A900305D51 /* GYWeakObjectContainer.swift in Sources */,
+				B79CCA301E12040400305D51 /* ViewController.swift in Sources */,
+				B7CA4D351E1232E200AC3262 /* GYNavigatiionBarTransition.swift in Sources */,
+				B7CA4D371E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift in Sources */,
+				B79CCA5D1E12045100305D51 /* GYSwizzle.swift in Sources */,
+				B79CCA2E1E12040400305D51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CCA3A1E12040400305D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79CCA431E12040400305D51 /* GYNavigationBarTranstionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CCA451E12040400305D51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B79CCA4E1E12040400305D51 /* GYNavigationBarTranstionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B79CCA401E12040400305D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79CCA291E12040400305D51 /* GYNavigationBarTranstion */;
+			targetProxy = B79CCA3F1E12040400305D51 /* PBXContainerItemProxy */;
+		};
+		B79CCA4B1E12040400305D51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B79CCA291E12040400305D51 /* GYNavigationBarTranstion */;
+			targetProxy = B79CCA4A1E12040400305D51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B79CCA361E12040400305D51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B79CCA371E12040400305D51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B79CCA501E12040500305D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B79CCA511E12040500305D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B79CCA531E12040500305D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = GYNavigationBarTranstion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.GYNavigationBarTranstion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B79CCA541E12040500305D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = GYNavigationBarTranstion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.GYNavigationBarTranstion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B79CCA561E12040500305D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NFC68K2BKB;
+				INFOPLIST_FILE = GYNavigationBarTranstionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.GYNavigationBarTranstionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYNavigationBarTranstion.app/GYNavigationBarTranstion";
+			};
+			name = Debug;
+		};
+		B79CCA571E12040500305D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NFC68K2BKB;
+				INFOPLIST_FILE = GYNavigationBarTranstionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.GYNavigationBarTranstionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GYNavigationBarTranstion.app/GYNavigationBarTranstion";
+			};
+			name = Release;
+		};
+		B79CCA591E12040500305D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NFC68K2BKB;
+				INFOPLIST_FILE = GYNavigationBarTranstionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.GYNavigationBarTranstionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GYNavigationBarTranstion;
+			};
+			name = Debug;
+		};
+		B79CCA5A1E12040500305D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NFC68K2BKB;
+				INFOPLIST_FILE = GYNavigationBarTranstionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.GYNavigationBarTranstionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GYNavigationBarTranstion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B79CCA251E12040400305D51 /* Build configuration list for PBXProject "GYNavigationBarTranstion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79CCA501E12040500305D51 /* Debug */,
+				B79CCA511E12040500305D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79CCA521E12040500305D51 /* Build configuration list for PBXNativeTarget "GYNavigationBarTranstion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79CCA531E12040500305D51 /* Debug */,
+				B79CCA541E12040500305D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79CCA551E12040500305D51 /* Build configuration list for PBXNativeTarget "GYNavigationBarTranstionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79CCA561E12040500305D51 /* Debug */,
+				B79CCA571E12040500305D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79CCA581E12040500305D51 /* Build configuration list for PBXNativeTarget "GYNavigationBarTranstionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79CCA591E12040500305D51 /* Debug */,
+				B79CCA5A1E12040500305D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B79CCA221E12040400305D51 /* Project object */;
+}
