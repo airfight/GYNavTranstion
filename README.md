@@ -1,2 +1,1 @@
-# GYPhotoBrowser
-图片浏览器
+利用runtime替换vc和nv部分方法，导航侧滑
