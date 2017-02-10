@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GYNavTranstion"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "导航侧滑"
   s.homepage     = "https://github.com/airfight/GYNavTranstion"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
