@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B71BB8AA1E13521200301BCD /* DispatchQueue+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71BB8A91E13521200301BCD /* DispatchQueue+GYExtension.swift */; };
+		B74856651E4D9B3D003653E6 /* backBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B74856641E4D9B3D003653E6 /* backBg.png */; };
 		B79CCA2E1E12040400305D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA2D1E12040400305D51 /* AppDelegate.swift */; };
 		B79CCA301E12040400305D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA2F1E12040400305D51 /* ViewController.swift */; };
 		B79CCA351E12040400305D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79CCA341E12040400305D51 /* Assets.xcassets */; };
@@ -18,7 +19,6 @@
 		B79CCA5F1E1209A900305D51 /* GYWeakObjectContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79CCA5E1E1209A900305D51 /* GYWeakObjectContainer.swift */; };
 		B7CA4D351E1232E200AC3262 /* GYNavigatiionBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D341E1232E200AC3262 /* GYNavigatiionBarTransition.swift */; };
 		B7CA4D371E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D361E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift */; };
-		B7CA4D391E12600B00AC3262 /* backBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B7CA4D381E12600B00AC3262 /* backBg.png */; };
 		B7CA4D3B1E1262EE00AC3262 /* GYVcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D3A1E1262EE00AC3262 /* GYVcViewController.swift */; };
 		B7CA4D3D1E1266B800AC3262 /* GYNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CA4D3C1E1266B800AC3262 /* GYNavViewController.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		B71BB8A91E13521200301BCD /* DispatchQueue+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+GYExtension.swift"; sourceTree = "<group>"; };
+		B74856641E4D9B3D003653E6 /* backBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBg.png; sourceTree = "<group>"; };
 		B79CCA2A1E12040400305D51 /* GYNavigationBarTranstion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYNavigationBarTranstion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79CCA2D1E12040400305D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B79CCA2F1E12040400305D51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		B79CCA5E1E1209A900305D51 /* GYWeakObjectContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYWeakObjectContainer.swift; sourceTree = "<group>"; };
 		B7CA4D341E1232E200AC3262 /* GYNavigatiionBarTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavigatiionBarTransition.swift; sourceTree = "<group>"; };
 		B7CA4D361E123F0500AC3262 /* UIViewController+GYNavigationBarTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+GYNavigationBarTransition.swift"; sourceTree = "<group>"; };
-		B7CA4D381E12600B00AC3262 /* backBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBg.png; sourceTree = "<group>"; };
 		B7CA4D3A1E1262EE00AC3262 /* GYVcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYVcViewController.swift; sourceTree = "<group>"; };
 		B7CA4D3C1E1266B800AC3262 /* GYNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +111,7 @@
 		B79CCA2C1E12040400305D51 /* GYNavigationBarTranstion */ = {
 			isa = PBXGroup;
 			children = (
+				B74856641E4D9B3D003653E6 /* backBg.png */,
 				B79CCA5B1E12042A00305D51 /* GYNavBar */,
 				B79CCA2D1E12040400305D51 /* AppDelegate.swift */,
 				B79CCA2F1E12040400305D51 /* ViewController.swift */,
@@ -144,7 +145,6 @@
 		B79CCA5B1E12042A00305D51 /* GYNavBar */ = {
 			isa = PBXGroup;
 			children = (
-				B7CA4D381E12600B00AC3262 /* backBg.png */,
 				B79CCA5C1E12045100305D51 /* GYSwizzle.swift */,
 				B79CCA5E1E1209A900305D51 /* GYWeakObjectContainer.swift */,
 				B7CA4D341E1232E200AC3262 /* GYNavigatiionBarTransition.swift */,
@@ -264,9 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74856651E4D9B3D003653E6 /* backBg.png in Resources */,
 				B79CCA381E12040400305D51 /* LaunchScreen.storyboard in Resources */,
 				B79CCA351E12040400305D51 /* Assets.xcassets in Resources */,
-				B7CA4D391E12600B00AC3262 /* backBg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
